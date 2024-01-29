@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "EmployeeServiceApplication",
+      "request": "launch",
+      "mainClass": "com.rick.employeeservice.EmployeeServiceApplication",
+      "projectName": "employee-service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DepartmentServiceApplication<department-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.rick.departmentservice.DepartmentServiceApplication",
+      "projectName": "department-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
